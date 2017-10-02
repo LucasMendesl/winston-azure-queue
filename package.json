@@ -23,7 +23,6 @@
   "license": "MIT",
   "dependencies": {
     "azure-storage": "^2.5.0",
-    "bluebird": "^3.5.0",
     "winston": "^2.3.1"
   },
   "bugs": {
@@ -32,6 +31,7 @@
   "homepage": "https://github.com/lucasmendesl/winston-azure-queue#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^3.5.3"
+    "mocha": "^3.5.3",
+    "sinon": "^4.0.0"
   }
 }
