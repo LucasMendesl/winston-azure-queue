@@ -1,37 +1,37 @@
 {
-  "name": "winston-azure-queue",
-  "version": "1.0.0",
-  "description": "A Winston log provider to azure queue storage",
-  "main": "./lib/index.js",
-  "scripts": {
-    "start": "node ./lib/index.js",
-    "test": "mocha test/index.test.js"
-  },
-  "keywords": [
-    "winston",
-    "nodejs",
-    "azure",
-    "queue",
-    "logger",
-    "promise"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LucasMendesl/winston-azure-queue.git"
-  },
-  "author": "Lucas Mendes Loureiro <mendes_lucas2006@hotmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "azure-storage": "^2.5.0",
-    "winston": "^2.3.1"
-  },
-  "bugs": {
-    "url": "https://github.com/lucasmendesl/winston-azure-queue/issues"
-  },
-  "homepage": "https://github.com/lucasmendesl/winston-azure-queue#readme",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^3.5.3",
-    "sinon": "^4.0.0"
-  }
+    "name": "winston-azure-queue",
+    "version": "1.0.1",
+    "description": "A Winston log provider to azure queue storage",
+    "main": "./lib/index.js",
+    "scripts": {
+        "start": "node ./lib/index.js",
+        "test": "mocha test/index.test.js"
+    },
+    "keywords": [
+        "winston",
+        "nodejs",
+        "azure",
+        "queue",
+        "logger",
+        "promise"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LucasMendesl/winston-azure-queue.git"
+    },
+    "author": "Lucas Mendes Loureiro <mendes_lucas2006@hotmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@azure/storage-queue": "^12.0.4",
+        "winston": "^3.2.1"
+    },
+    "bugs": {
+        "url": "https://github.com/lucasmendesl/winston-azure-queue/issues"
+    },
+    "homepage": "https://github.com/lucasmendesl/winston-azure-queue#readme",
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^7.1.2",
+        "sinon": "^4.0.0"
+    }
 }
