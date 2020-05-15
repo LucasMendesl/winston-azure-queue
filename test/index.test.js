@@ -68,10 +68,14 @@ describe('azure queue logger', () => {
 
             expect(transport.queueName).to.be.not.null;
             expect(transport.level).to.be.not.null;
-            expect(transport.silent).to.be.false;
+            expect(transport.silent).to.be.undefined;
             expect(transport.pid).to.not.be.null;
             expect(transport.env).to.be.equal(process.env.NODE_ENV);
             expect(transport._queueService).to.be.not.null;
+            expect(transport.encodedBase64).to.be.undefined;
+            expect(transport.maxTries).to.be.equal(6);
+            expect(transport.maxRetryDelayInMs).to.be.equal(5000);
+            expect(transport.retryDelayInMs).to.be.equal(2500);
         });
     });
 

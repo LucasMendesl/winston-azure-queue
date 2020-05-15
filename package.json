@@ -1,6 +1,6 @@
 {
     "name": "winston-azure-queue",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "A Winston log provider to azure queue storage",
     "main": "./lib/index.js",
     "scripts": {
